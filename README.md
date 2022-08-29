@@ -10,4 +10,4 @@
 #### All css codes are written manually
 #### I will use bootstrap in next project
 
-#created by **Nadir Özsoy**
+# created by **Nadir Özsoy**
