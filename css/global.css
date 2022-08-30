@@ -29,3 +29,43 @@
     max-width: 900px;
     margin: 0 auto;
 }
+
+/* Buttons */
+
+.btn {
+    padding: 0.7rem 3rem;
+    border-radius: 7px;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+}
+
+.btn-primary {
+    background-color: rgb(72, 72, 191);
+}
+
+.btn-primary:hover {
+    color: rgb(72, 72, 191);
+    background-color: rgb(255, 255, 255);
+    border: 3px rgb(72, 72, 191) solid;
+}
+
+.btn-dark {
+    background-color: rgb(16, 16, 81);
+}
+
+.btn-dark:hover {
+    color: rgb(16, 16, 81);
+    background-color: rgb(255, 255, 255);
+    border: 3px rgb(16, 16, 81) solid;
+}
+
+.btn-block {
+    width: 100%;
+    text-align: center;
+}
+
+.gonder:hover {
+    background-color: rgb(16, 16, 81);
+    border: 3px rgb(231, 231, 231) solid;
+    color: rgb(244, 244, 244);
+}
