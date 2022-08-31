@@ -20,3 +20,21 @@
 #training .items .item {
     width: auto;
 }
+
+.courses .course {
+    display: flex;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.courses .course .course-image span {
+    background-color: red;
+    padding: 0.2rem;
+    color: white;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 3rem;
+}
