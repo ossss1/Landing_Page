@@ -68,4 +68,23 @@
     background-color: rgb(16, 16, 81);
     border: 3px rgb(231, 231, 231) solid;
     color: rgb(244, 244, 244);
+    cursor: pointer;
+}
+
+/* Forms */
+
+.form-group {
+    padding: 0.25rem 0;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 6px;
 }

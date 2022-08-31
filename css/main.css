@@ -42,7 +42,7 @@ html {
     font-weight: bold;
 }
 
-/* Home Section */
+/* Home */
 
 #home {
     display: flex;
@@ -50,7 +50,7 @@ html {
     justify-content: center;
     align-items: center;
     padding: 3rem;
-    border-bottom: 2px grey solid;
+    border-bottom: 0.2rem rgb(16, 16, 81) solid;
 }
 
 #home img {
@@ -61,16 +61,20 @@ html {
 
 #home .name h2 {
     margin: 1rem;
+    font-size: 3rem;
 }
 
 #home .name p {
     font-style: italic;
     font-weight: bold;
     opacity: 0.6;
+    font-size: 1.5rem;
 }
 
 #home a {
     margin-top: 1rem;
+    width: 50%;
+    text-align: center
 }
 
 /* Trainings */
@@ -138,6 +142,7 @@ html {
 .courses .course .course-image span {
     background-color: red;
     padding: 0.2rem;
+    font-size: 0.9rem;
     color: white;
     border-radius: 0.5rem;
     position: absolute;
@@ -171,4 +176,35 @@ html {
     font-size: 0.8rem;
     margin-bottom: 0.25rem;
     opacity: 0.9;
+}
+
+/* Contact */
+
+#contact {
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+
+#contact .contact-form {
+    max-width: 700px;
+    height: 40rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul {
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+    margin-top: 0.5rem;
+}
+
+#contact .contact-form ul li a {
+    font-size: 3rem;
+    margin: 0.2rem 0.4rem;
+}
+
+#contact .contact-form ul li a:hover {
+    opacity: 0.6;
 }
